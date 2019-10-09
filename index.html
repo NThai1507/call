@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3 id="yourId">Your ID: </h3>
+    <br>
+    <input type="text" name="remoteId" id="remoteId" placeholder="Enter remote ID">
+    <button id="btnCall">Call</button><br><br><br>
+    <video id="localVideo" style="width:300px;margin: auto;border: 1px solid black" controls>
+
+    </video>
+
+    <video id="remoteStream" style="width: 300px;margin: auto;border: 1px solid black;" controls>
+
+    </video>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
